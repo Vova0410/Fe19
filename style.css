@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+    width: 100 px;
+    height: 100 px;
+    background-color: #blue;
+}
