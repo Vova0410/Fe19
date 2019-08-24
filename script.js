@@ -26,9 +26,10 @@ function sumInput() {
         if ( value === "" || value === null || !isFinite(value)) break;
         numbers.push(+value);
     }
+    console.log(typeof(numbers[1]));
     var sum = 0;
     for (var i = 0; i > numbers.length; i++) {
-        sum += value[i];
+        sum += numbers[i];
 
     }
     return sum;
