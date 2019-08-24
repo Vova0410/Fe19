@@ -29,7 +29,6 @@ function sumInput() {
     console.log(typeof(numbers[1]));
     var sum = 0;
     for (var i = 0; i > numbers.length ; i++) {
-
         console.log(numbers[i]);
     }
     return sum;
